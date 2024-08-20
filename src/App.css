@@ -1,0 +1,32 @@
+header img {
+  height: 100px;
+  width: 150px;
+  padding: 50px;
+}
+header {
+  background-color: black;
+  margin: 0;
+}
+
+main {
+  background-color: black;
+}
+
+.container {
+  border: black solid 4px;
+  padding: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+.categorys img {
+  border: rgb(114, 250, 166) solid 4px;
+}
+.img-films {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  height: 130px;
+}
