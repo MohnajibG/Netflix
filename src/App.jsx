@@ -11,8 +11,8 @@ const App = () => {
         <img src={logo} alt="Logo" />
       </header>
       <div>
-        {movies.map((elem, index) => (
-          <Selection key={index} category={elem} />
+        {movies.map((elem) => (
+          <Selection key={elem} category={elem} />
         ))}
       </div>
     </div>

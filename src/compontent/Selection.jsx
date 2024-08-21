@@ -4,8 +4,8 @@ const Selection = ({ category }) => {
       <div className="container">
         <h2>{category.category}</h2>
         <div className="img-films">
-          {category.images.map((image, index) => (
-            <img key={index} src={image} alt="" />
+          {category.images.map((url) => (
+            <img key={url} src={url} alt="" />
           ))}
         </div>
       </div>
