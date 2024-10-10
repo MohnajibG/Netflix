@@ -1,32 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto" sans-serif;
+}
 header img {
-  height: 100px;
-  width: 150px;
-  padding: 50px;
+  height: 200px;
+  width: 200px;
+  padding-left: 50px;
 }
 header {
   background-color: black;
   margin: 0;
 }
 
-main {
-  background-color: black;
-}
-
 .container {
+  font-family: "Roboto" sans-serif;
   border: black solid 4px;
   padding: 50px;
 }
-
 h2 {
-  color: white;
+  font-family: "Roboto" sans-serif;
+  font-size: 42px;
+  padding-bottom: 30px;
+  z-index: 100;
 }
 
-.categorys img {
-  border: rgb(114, 250, 166) solid 4px;
-}
 .img-films {
   display: flex;
-  overflow: scroll;
+  gap: 4px;
+  overflow-x: scroll;
   scrollbar-width: none;
-  height: 130px;
+  height: 250px;
+  transition: transform 0.2s;
+  border-radius: 10px;
+}
+.img-films:hover {
+  transform: scale(1.5);
 }
